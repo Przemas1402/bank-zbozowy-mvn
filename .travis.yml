@@ -7,5 +7,5 @@ env:
     - USE_NETWORK=false
     - secure: <you can also put encrypted vars inside matrix>
 after_success:
-- .utility/initiate-publish.sh
-- .utility/push-javadoc-to-gh-pages.sh
+- initiate-publish.sh
+- push-javadoc-to-gh-pages.sh
